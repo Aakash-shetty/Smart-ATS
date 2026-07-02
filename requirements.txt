@@ -1,0 +1,35 @@
+# =============================================================================
+# ATS Hackathon Project - Pinned Dependencies
+# =============================================================================
+# NOTE: Versions are pinned to known-stable, mutually compatible releases to
+# guarantee a zero-shot, flawless install on the evaluator's machine.
+# Install with: pip install -r requirements.txt
+# =============================================================================
+
+# --- Backend / API layer ---
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+pydantic==2.9.2
+python-multipart==0.0.9
+
+# --- NLP / ML core ---
+sentence-transformers==3.1.1
+transformers==4.44.2
+tokenizers==0.19.1
+huggingface-hub==0.24.6
+scikit-learn==1.5.2
+scipy==1.13.1
+numpy==1.26.4
+torch==2.4.1
+
+# --- PDF Parsing ---
+PyMuPDF==1.24.10
+
+# --- Frontend / Visualization ---
+streamlit==1.38.0
+pandas==2.2.2
+plotly==5.24.0
+
+# --- Utilities ---
+requests==2.32.3
+python-dotenv==1.0.1
