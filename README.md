@@ -11,7 +11,7 @@ We built an intelligent matchmaking engine for recruitment. Instead of just coun
 We empower HR professionals to balance **semantic intelligence** with **lexical precision** using a real-time, interactive dashboard.
 
 ### The Logic Flow
-![System Flowchart](<img width="476" height="346" alt="ats" src="https://github.com/user-attachments/assets/0ec4d906-5d16-4807-809f-c207072bd694" />
+![System Flowchart](<./ats.png>
 )
 
 1. **Upload & Parse:** Upload resumes (PDF) and extract clean, normalized text.
